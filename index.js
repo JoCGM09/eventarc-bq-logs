@@ -31,6 +31,6 @@ app.post('/', async (req,res) => {
 
 const port = parseInt(process.env.PORT) || 8080;
 
-app.listen(port => {
+app.listen(port, () => {
     console.log("eventarc-event-logger: listening on port", port);
 });
